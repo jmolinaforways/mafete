@@ -12,58 +12,64 @@
 </head>
 <body>
 
+  <!-- STICKY BAR -->
   <div class="sticky-bar" id="stickyBar">
-    <span>🎉 ¡Fechas limitadas disponibles!</span>
+    <span>🔥 Fechas limitadas · Solo el 30% para confirmar</span>
     <a href="#pre-reserva" class="sticky-btn">Pre-Reservar</a>
   </div>
 
+  <!-- NAVBAR: logo centrado -->
   <nav class="navbar" id="navbar">
+    <a href="#pre-reserva" class="nav-link">Planes</a>
     <img src="https://storage.googleapis.com/msgsndr/le0KI0Op1bq7RN1yaK8T/media/646520f046a63decfc371c5b.png" alt="Ma Fête Logo" class="nav-logo" />
-    <a href="#pre-reserva" class="nav-cta">Pre-Reservar</a>
+    <a href="#pre-reserva" class="nav-cta">Reservar</a>
   </nav>
 
   <!-- HERO -->
   <section class="hero" id="hero">
-    <div class="hero-overlay"></div>
+    <!-- Video de fondo, muy suave -->
     <video class="hero-video" autoplay muted loop playsinline>
       <source src="https://mafete.com.do/wp-content/uploads/mafete-promo.mp4" type="video/mp4" />
     </video>
-    <div class="hero-content">
-      <div class="hero-badge animate-fade-up">✨ Parque Temático Privado &amp; Exclusivo</div>
-      <h1 class="hero-title animate-fade-up delay-1">
-        La fiesta que tu hijo<br /><span class="hero-accent">siempre soñó</span><br />empieza aquí
+    <div class="hero-overlay"></div>
+
+    <div class="hero-inner">
+      <!-- Logo grande centrado -->
+      <div class="hero-logo-wrap animate-fade-up">
+        <img src="https://storage.googleapis.com/msgsndr/le0KI0Op1bq7RN1yaK8T/media/646520f046a63decfc371c5b.png" alt="Ma Fête" class="hero-logo" />
+      </div>
+
+      <!-- Chip / badge -->
+      <div class="hero-chip animate-fade-up delay-1">Parque Temático Privado · Santo Domingo, RD</div>
+
+      <!-- Headline -->
+      <h1 class="hero-title animate-fade-up delay-2">
+        La fiesta que tu hijo<br />
+        <em>siempre soñó</em>
       </h1>
-      <p class="hero-subtitle animate-fade-up delay-2">
-        Parque privado, decoración premium, comida y staff incluido.<br />Solo tú, tu familia y diversión sin límites.
+
+      <!-- Subtítulo -->
+      <p class="hero-subtitle animate-fade-up delay-3">
+        Parque privado · Decoración premium · Comida y bebidas incluidas · Staff profesional
       </p>
 
-      <!-- Trust bar -->
-      <div class="hero-trust animate-fade-up delay-3">
-        <div class="trust-item">
-          <span class="trust-icon">⭐</span>
-          <div><strong>500+</strong><small>Fiestas</small></div>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <span class="trust-icon">🔒</span>
-          <div><strong>100%</strong><small>Privado</small></div>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <span class="trust-icon">🍕</span>
-          <div><strong>Todo</strong><small>Incluido</small></div>
-        </div>
-      </div>
-
-      <!-- CTA principal -->
+      <!-- CTA -->
       <div class="hero-cta-group animate-fade-up delay-4">
         <a href="#pre-reserva" class="btn-hero-primary">
-          <span>🎉 Pre-Reservar Mi Fecha</span>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          Asegurar mi fecha
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
-        <a href="#planes" class="btn-hero-secondary">Ver planes y precios</a>
+        <a href="#planes" class="btn-hero-ghost">Ver planes y precios →</a>
       </div>
-      <p class="hero-note animate-fade-up delay-4">🔒 Solo el 30% para confirmar · Sin compromiso</p>
+
+      <!-- Trust bar -->
+      <div class="hero-trust animate-fade-up delay-5">
+        <div class="trust-pill">⭐ +500 fiestas realizadas</div>
+        <div class="trust-pill">🔒 100% privado</div>
+        <div class="trust-pill">✅ Todo incluido</div>
+      </div>
+
+      <p class="hero-note animate-fade-up delay-5">Solo el 30% separa tu fecha · Sin compromiso</p>
     </div>
   </section>
 
