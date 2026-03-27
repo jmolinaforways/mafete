@@ -943,6 +943,17 @@ body {
   text-align: center;
 }
 .footer-logo img { height: 40px; object-fit: contain; margin-bottom: 12px; opacity: 0.9; }
+.footer-logo-img {
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 14px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* Logo en blanco — igual que en el hero */
+  filter: brightness(0) invert(1);
+  opacity: 0.92;
+}
 .footer-tagline { font-size: 13px; color: var(--text-light); margin-bottom: 18px; line-height: 1.5; }
 .footer-links {
   display: flex;
