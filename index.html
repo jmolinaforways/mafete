@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>Ma Fête | Parque Temático Privado para Eventos Infantiles</title>
+  <meta name="description" content="El parque temático privado más exclusivo de República Dominicana para celebrar cumpleaños y eventos infantiles únicos e inolvidables. Pre-reserva tu fecha hoy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="sticky-bar" id="stickyBar">
+    <span>🎉 ¡Fechas limitadas disponibles!</span>
+    <a href="#pre-reserva" class="sticky-btn">Pre-Reservar</a>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <img src="https://storage.googleapis.com/msgsndr/le0KI0Op1bq7RN1yaK8T/media/646520f046a63decfc371c5b.png" alt="Ma Fête Logo" class="nav-logo" />
+    <a href="#pre-reserva" class="nav-cta">Pre-Reservar</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="https://mafete.com.do/wp-content/uploads/mafete-promo.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <div class="hero-badge animate-fade-up">✨ Parque Temático Privado Exclusivo</div>
+      <h1 class="hero-title animate-fade-up delay-1">
+        El cumpleaños que<br /><span class="text-accent">siempre soñaste</span><br />para tu pequeño
+      </h1>
+      <p class="hero-subtitle animate-fade-up delay-2">
+        Diversión, decoración premium, comida y un parque privado solo para tu familia y amigos 🎠
+      </p>
+      <div class="hero-trust animate-fade-up delay-3">
+        <span>⭐ 500+ fiestas</span>
+        <span>🎈 100% privado</span>
+        <span>🍕 Comida incluida</span>
+      </div>
+      <a href="#pre-reserva" class="btn-primary animate-fade-up delay-4">
+        <span>🎉 Pre-Reservar Mi Fecha</span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <p class="hero-note animate-fade-up delay-4">Solo el 30% para confirmar tu fecha</p>
+    </div>
+  </section>
+
+  <!-- VSL -->
+  <section class="vsl-section" id="vsl">
+    <div class="container">
+      <div class="section-label">🎬 Conoce Ma Fête</div>
+      <h2 class="section-title">Un mundo mágico que tu hijo <span class="text-accent">nunca olvidará</span></h2>
+      <div class="vsl-wrapper">
+        <div class="vsl-play-overlay" id="vslOverlay" onclick="playVideo()">
+          <div class="play-button">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <p>Ver video del parque</p>
+        </div>
+      </div>
+      <div class="vsl-cta">
+        <a href="#pre-reserva" class="btn-primary">
+          <span>🎉 Quiero Mi Fiesta Así</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features-section" id="features">
+    <div class="container">
+      <div class="section-label">¿Por qué Ma Fête?</div>
+      <h2 class="section-title">Todo incluido para que tú<br /><span class="text-accent">solo disfrutes</span></h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🎠</div>
+          <h3>Parque 100% Privado</h3>
+          <p>El parque completo es exclusivo para ti y tus invitados. Sin extraños, sin interrupciones.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎨</div>
+          <h3>Decoración Premium</h3>
+          <p>Mamparas, globos, arcos y ambientación temática incluida en todos los planes.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🍕</div>
+          <h3>Comida y Bebidas</h3>
+          <p>Finger food, pizzas para los niños, bebidas ilimitadas y más. Todo en un solo precio.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👑</div>
+          <h3>Staff Profesional</h3>
+          <p>Anfitrión, meseros y personal dedicado para que todo fluya perfectamente.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🚗</div>
+          <h3>Valet Parking</h3>
+          <p>Servicio de valet parking incluido para tus invitados. Tu tranquilidad primero.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Invitación Digital</h3>
+          <p>Invitación digital personalizada incluida para compartir por WhatsApp con estilo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PLANES -->
+  <section class="plans-section" id="planes">
+    <div class="container">
+      <div class="section-label">💎 Nuestros Planes</div>
+      <h2 class="section-title">Elige la aventura <span class="text-accent">perfecta</span></h2>
+      <p class="section-subtitle">Precios excluyen ITBIS. Padres y cumpleañero no cuentan como invitados.</p>
+
+      <div class="plan-toggle">
+        <button class="toggle-btn active" id="btnEstandar" onclick="showPlan('estandar')">⭐ Aventura Estándar</button>
+        <button class="toggle-btn" id="btnMaxima" onclick="showPlan('maxima')">👑 Aventura Máxima</button>
+      </div>
+
+      <!-- Plan Estándar -->
+      <div class="plan-content" id="planEstandar">
+        <div class="plan-header standard">
+          <div class="plan-badge">Más Popular</div>
+          <h3>🌟 Aventura Estándar</h3>
+          <p class="plan-duration">4h (Lun-Dom tarde) · 3h (Sáb-Dom mañana)</p>
+        </div>
+        <div class="plan-includes">
+          <h4>✅ Incluye:</h4>
+          <div class="includes-grid">
+            <div class="include-item"><span>🎪</span><div><strong>Decoración Completa</strong><p>Mesas, mampara 62", globos, elevadores, nombre del cumpleañero y mueble para funditas</p></div></div>
+            <div class="include-item"><span>🥤</span><div><strong>Bebidas Ilimitadas</strong><p>Palomitas, agua, café, té frío y refrescos sin límite</p></div></div>
+            <div class="include-item"><span>🍽️</span><div><strong>Comida Adultos</strong><p>5 piezas/persona: pastelitos, sanduchitos, croquetas, mini pizzas y quipes</p></div></div>
+            <div class="include-item"><span>🍕</span><div><strong>Comida Niños</strong><p>2 pedazos de pizza por niño</p></div></div>
+            <div class="include-item"><span>👥</span><div><strong>Staff Incluido</strong><p>Anfitrión/Host y Mesero dedicados</p></div></div>
+            <div class="include-item"><span>✨</span><div><strong>Extras</strong><p>Invitación digital, Valet parking, música ambiental y desechables</p></div></div>
+          </div>
+        </div>
+        <div class="pricing-table">
+          <h4>💰 Precios por capacidad</h4>
+          <div class="pricing-grid">
+            <div class="price-item"><span class="pax">20 pax</span><span class="price">RD$30,000</span><span class="note">Lun-Mié</span></div>
+            <div class="price-item featured"><span class="pax">30 pax</span><span class="price">RD$40,000</span></div>
+            <div class="price-item featured"><span class="pax">40 pax</span><span class="price">RD$46,000</span></div>
+            <div class="price-item"><span class="pax">50 pax</span><span class="price">RD$56,000</span></div>
+            <div class="price-item"><span class="pax">60 pax</span><span class="price">RD$63,000</span></div>
+            <div class="price-item"><span class="pax">70 pax</span><span class="price">RD$70,000</span></div>
+            <div class="price-item"><span class="pax">80 pax</span><span class="price">RD$80,000</span></div>
+            <div class="price-item"><span class="pax">90 pax</span><span class="price">RD$90,000</span></div>
+            <div class="price-item"><span class="pax">100 pax</span><span class="price">RD$108,000</span></div>
+          </div>
+          <p class="extra-person">Persona adicional: <strong>RD$1,100 + ITBIS</strong></p>
+        </div>
+        <a href="#pre-reserva" class="btn-primary btn-full">Pre-Reservar Aventura Estándar →</a>
+      </div>
+
+      <!-- Plan Máxima -->
+      <div class="plan-content hidden" id="planMaxima">
+        <div class="plan-header maxima">
+          <div class="plan-badge premium">Premium</div>
+          <h3>👑 Aventura Máxima</h3>
+          <p class="plan-duration">Todo lo del Estándar + beneficios exclusivos premium</p>
+        </div>
+        <div class="plan-includes">
+          <h4>✅ Incluye TODO del Estándar, más:</h4>
+          <div class="includes-grid">
+            <div class="include-item"><span>🎂</span><div><strong>Pastel Incluido</strong><p>Torta de 1 a 2 pisos personalizada</p></div></div>
+            <div class="include-item"><span>🍬</span><div><strong>3 Postres/Persona</strong><p>Mantecaditos, polvorones, alfajores, brownies y más</p></div></div>
+            <div class="include-item"><span>🎪</span><div><strong>Decoración Premium</strong><p>Arco de globos, pantallas adicionales, decoración más robusta</p></div></div>
+            <div class="include-item"><span>🎁</span><div><strong>Funditas Personalizadas</strong><p>Funditas de dulces personalizadas para cada invitado</p></div></div>
+            <div class="include-item"><span>🥂</span><div><strong>Sangría Ilimitada</strong><p>Sangría tinta o blanca sin límite para adultos</p></div></div>
+            <div class="include-item"><span>🧀</span><div><strong>Nachos con Queso</strong><p>Estación de nachos para compartir</p></div></div>
+          </div>
+        </div>
+        <div class="pricing-table">
+          <h4>💰 Precios por capacidad</h4>
+          <div class="pricing-grid">
+            <div class="price-item"><span class="pax">20 pax</span><span class="price">RD$56,000</span><span class="note">Lun-Mié</span></div>
+            <div class="price-item featured"><span class="pax">30 pax</span><span class="price">RD$65,000</span></div>
+            <div class="price-item featured"><span class="pax">40 pax</span><span class="price">RD$82,000</span></div>
+            <div class="price-item"><span class="pax">50 pax</span><span class="price">RD$105,000</span></div>
+            <div class="price-item"><span class="pax">60 pax</span><span class="price">RD$120,000</span></div>
+            <div class="price-item"><span class="pax">70 pax</span><span class="price">RD$130,000</span></div>
+            <div class="price-item"><span class="pax">80 pax</span><span class="price">RD$140,000</span></div>
+            <div class="price-item"><span class="pax">90 pax</span><span class="price">RD$150,000</span></div>
+            <div class="price-item"><span class="pax">100 pax</span><span class="price">RD$165,000</span></div>
+          </div>
+          <p class="extra-person">Persona adicional: <strong>RD$2,200 + ITBIS</strong></p>
+        </div>
+        <a href="#pre-reserva" class="btn-primary btn-full btn-gold">Pre-Reservar Aventura Máxima →</a>
+      </div>
+
+      <!-- Extras -->
+      <div class="extras-section">
+        <h4>🎭 Servicios Adicionales</h4>
+        <div class="extras-grid">
+          <div class="extra-item"><span>🎭</span><div><strong>Piñata Personalizada</strong><p>Desde RD$3,500 hasta RD$8,500</p></div></div>
+          <div class="extra-item"><span>🍷</span><div><strong>Sangría (Galón)</strong><p>RD$2,800</p></div></div>
+          <div class="extra-item"><span>🎨</span><div><strong>Pintacaritas</strong><p>RD$4,500 – RD$7,500</p></div></div>
+          <div class="extra-item"><span>🍗</span><div><strong>Pollitos con Papitas</strong><p>RD$500 por niño</p></div></div>
+          <div class="extra-item"><span>📸</span><div><strong>Fotografía / Video</strong><p>Cotización personalizada</p></div></div>
+          <div class="extra-item"><span>🎪</span><div><strong>Animación, Magia & Personajes</strong><p>Cotización personalizada</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="proof-section" id="testimonios">
+    <div class="container">
+      <div class="section-label">💬 Lo que dicen las mamás</div>
+      <h2 class="section-title">Más de <span class="text-accent">500 familias</span> ya celebraron</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"La fiesta más bonita que le hemos hecho a nuestra hija. El lugar es precioso y el staff es increíble. ¡Totalmente recomendado!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MR</div>
+            <div><strong>María Rodríguez</strong><span>Mamá de Valeria, 5 años</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"Que el parque sea privado lo hace todo diferente. Los niños estaban felices y los adultos también disfrutamos. Vale cada centavo."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JP</div>
+            <div><strong>Juliana Pérez</strong><span>Mamá de Santiago, 7 años</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p>"La decoración fue espectacular y la comida deliciosa. El anfitrión estuvo pendiente de todo. Sin duda volveremos el próximo año."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">CG</div>
+            <div><strong>Carolina García</strong><span>Mamá de Emilio, 4 años</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="process-section" id="proceso">
+    <div class="container">
+      <div class="section-label">📋 Proceso Simple</div>
+      <h2 class="section-title">Tu evento en <span class="text-accent">3 pasos</span></h2>
+      <div class="steps-list">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Pre-Reserva tu Fecha</h3>
+            <p>Completa el formulario, escoge tu fecha y plan deseado.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Confirma con el 30%</h3>
+            <p>Recibirás instrucciones de pago para confirmar tu reserva oficialmente.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>¡Disfruta tu Fiesta!</h3>
+            <p>El día del evento, llega y relájate. Nosotros nos encargamos de todo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULARIO PRE-RESERVA -->
+  <section class="form-section" id="pre-reserva">
+    <div class="container">
+      <div class="form-header">
+        <div class="section-label">📅 Pre-Reserva</div>
+        <h2 class="section-title">¡Asegura tu fecha<br />antes de que se agote!</h2>
+        <p class="section-subtitle">La reserva se confirma con el pago inicial del <strong>30%</strong>.</p>
+        <div class="urgency-badge">
+          <span>🔥</span>
+          <span>Fechas con alta demanda · Solo el 30% separa tu fecha</span>
+        </div>
+      </div>
+      <div class="ghl-form-wrapper">
+        <iframe
+          src="https://api.leadways.app/widget/booking/LxCNFY123qi4fY2EZysN"
+          style="width: 100%; border: none; overflow: hidden; min-height: 700px; border-radius: 16px;"
+          scrolling="no"
+          id="LxCNFY123qi4fY2EZysN_1774645115134"
+          title="Pre-Reserva Ma Fête"
+        ></iframe>
+        <script src="https://api.leadways.app/js/form_embed.js" type="text/javascript"></script>
+      </div>
+      <div class="form-footer-note">
+        <p>🔒 Tus datos están seguros. No enviamos spam.</p>
+        <p>📞 Preguntas: <a href="tel:8497109225">849-710-9225</a> · <a href="https://wa.me/18497109225" target="_blank">WhatsApp</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-label">❓ Preguntas Frecuentes</div>
+      <h2 class="section-title">Todo lo que necesitas <span class="text-accent">saber</span></h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>¿Los padres y el cumpleañero cuentan como invitados?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>No. Los padres y el cumpleañero no cuentan dentro de los invitados incluidos en el plan.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>¿Puedo cambiar niños por adultos en el plan?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>En el plan Estándar sí. En el plan Máxima, se requiere aviso con al menos 10 días de anticipación.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>¿Cómo confirmo mi reserva?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>Luego de tu pre-reserva, recibirás los planes actualizados e instrucciones de pago. La reserva se confirma con el 30% del plan elegido.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>¿Puedo contratar servicios adicionales?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>¡Sí! Piñatas, pintacaritas, sangría, animación, magia, personajes, fotografía/video y más. Algunos tienen precio fijo, otros se cotizan.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>¿Los precios incluyen ITBIS?</span>
+            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-answer"><p>No. Todos los precios indicados excluyen el ITBIS. El monto final incluirá el impuesto correspondiente.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta-section">
+    <div class="container">
+      <div class="final-cta-card">
+        <div class="final-cta-emoji">🎉</div>
+        <h2>¿Listo para crear la fiesta perfecta?</h2>
+        <p>No esperes más. Las fechas se agotan rápido y queremos que tu pequeño tenga la celebración que merece.</p>
+        <a href="#pre-reserva" class="btn-primary btn-large">Pre-Reservar Mi Fecha Ahora →</a>
+        <p class="final-note">Solo el 30% para confirmar · 100% privado · Todo incluido</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-logo">
+        <img src="https://storage.googleapis.com/msgsndr/le0KI0Op1bq7RN1yaK8T/media/646520f046a63decfc371c5b.png" alt="Ma Fête Logo" />
+      </div>
+      <p class="footer-tagline">El parque temático privado para eventos infantiles únicos e inolvidables.</p>
+      <div class="footer-links">
+        <a href="#planes">Planes</a>
+        <a href="#pre-reserva">Pre-Reservar</a>
+        <a href="https://wa.me/18497109225" target="_blank">WhatsApp</a>
+        <a href="https://www.google.com/maps?q=Ma+Fete+Santo+Domingo" target="_blank">Ubicación</a>
+      </div>
+      <p class="footer-copy">© 2024 Ma Fête · <a href="tel:8497109225">849-710-9225</a></p>
+    </div>
+  </footer>
+
+  <!-- WA FLOAT -->
+  <a href="https://wa.me/18497109225?text=Hola%2C%20me%20interesa%20hacer%20una%20pre-reserva%20en%20Ma%20F%C3%AAte" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.940 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+/*
+ * Redirects para Cloudflare Pages
+ */
+
+# Redirect planes a la sección de planes de la landing
+/planes  /#planes  301
+
+# Redirect pre-reserva a la sección del formulario
+/pre-reserva-page  /#pre-reserva  301
+/pre-reserva  /#pre-reserva  301
